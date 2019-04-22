@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('http://i.huffpost.com/gen/1520601/images/o-ROCK-CONCERT-facebook.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  color: #f7d5ba;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#display {
+  color: #350312;
+  text-align: center;
+  font: small-caps 800 48px/1.5 impact;
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.drum-pad {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  font: small-caps 800 72px/1.5 impact;
+  border: 1px solid rgb(241, 115, 11);
+  border-radius: 0 15px 0 15px;
+  padding: 25px;
+  min-height: 200px;
+  max-width: 140px
+}
+
+.play {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgb(241, 65, 11);
+  box-shadow: 1px 2px 2px 2px rgba(241, 65, 11, 0.6), -1px -2px 2px 2px rgba(241, 65, 11, 0.6);
+  transition: all 0.25 ease;
+}
